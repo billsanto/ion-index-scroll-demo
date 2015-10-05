@@ -19,11 +19,11 @@ ion-index-scroll
 
 # Installation
 
-1. Use bower to install the new module.  For reference, http://bower.io/docs/api/#install:
+Use bower to install the new module.  For reference, http://bower.io/docs/api/#install:
 ```bash
 bower install https://github.com/billsanto/ion-index-scroll-demo.git --save
 ```
-2. If you would like to use this in your own app, see https://github.com/billsanto/ion-index-scroll for the library, without the supporting demo code:
+If you would like to use this in your own app, see https://github.com/billsanto/ion-index-scroll for the library, without the supporting demo code.
 
 
 # Usage
