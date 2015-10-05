@@ -21,20 +21,10 @@ ion-index-scroll
 
 1. Use bower to install the new module.  For reference, http://bower.io/docs/api/#install:
 ```bash
-bower install https://github.com/billsanto/ion-index-scroll.git --save
+bower install https://github.com/billsanto/ion-index-scroll-demo.git --save
 ```
-2. Import the `ion-index-scroll` javascript and css file into your HTML file:
-```html
-<script src="bower_components/ion-index-scroll/dist/ion-index-scroll.js"></script>
-<link href="bower_components/ion-index-scroll/dist/ion-index-scroll.css" rel="stylesheet">
-```
-3. Add `ion-index-scroll` as a dependency on your Ionic app:
-```javascript
-angular.module('myApp', [
-  'ionic',
-  'ion-index-scroll'
-]);
-```
+2. If you would like to use this in your own app, see https://github.com/billsanto/ion-index-scroll for the library, without the supporting demo code:
+
 
 # Usage
 
@@ -273,7 +263,7 @@ angular.module('starter.services', [])
             }, {
                 position: 9,
                 arch: 'maxillary',
-                quadrant: 1,
+                quadrant: 2,
                 quadrantDescription: 'Upper Left',
                 primaryFdi: '61',
                 primaryUniversal: 'F',
@@ -284,7 +274,7 @@ angular.module('starter.services', [])
             }, {
                 position: 10,
                 arch: 'maxillary',
-                quadrant: 1,
+                quadrant: 2,
                 quadrantDescription: 'Upper Left',
                 primaryFdi: '62',
                 primaryUniversal: 'G',
@@ -295,7 +285,7 @@ angular.module('starter.services', [])
             }, {
                 position: 11,
                 arch: 'maxillary',
-                quadrant: 1,
+                quadrant: 2,
                 quadrantDescription: 'Upper Left',
                 primaryFdi: '63',
                 primaryUniversal: 'H',
@@ -306,7 +296,7 @@ angular.module('starter.services', [])
             }, {
                 position: 12,
                 arch: 'maxillary',
-                quadrant: 1,
+                quadrant: 2,
                 quadrantDescription: 'Upper Left',
                 primaryFdi: '64',
                 primaryUniversal: 'I',
@@ -317,7 +307,7 @@ angular.module('starter.services', [])
             }, {
                 position: 13,
                 arch: 'maxillary',
-                quadrant: 1,
+                quadrant: 2,
                 quadrantDescription: 'Upper Left',
                 primaryFdi: '65',
                 primaryUniversal: 'J',
@@ -328,7 +318,7 @@ angular.module('starter.services', [])
             }, {
                 position: 14,
                 arch: 'maxillary',
-                quadrant: 1,
+                quadrant: 2,
                 quadrantDescription: 'Upper Left',
                 primaryFdi: '',
                 primaryUniversal: '',
@@ -339,7 +329,7 @@ angular.module('starter.services', [])
             }, {
                 position: 15,
                 arch: 'maxillary',
-                quadrant: 1,
+                quadrant: 2,
                 quadrantDescription: 'Upper Left',
                 primaryFdi: '',
                 primaryUniversal: '',
@@ -350,7 +340,7 @@ angular.module('starter.services', [])
             }, {
                 position: 16,
                 arch: 'maxillary',
-                quadrant: 1,
+                quadrant: 2,
                 quadrantDescription: 'Upper Left',
                 primaryFdi: '',
                 primaryUniversal: '',
@@ -358,6 +348,183 @@ angular.module('starter.services', [])
                 permanentFdi: '28',
                 permanentUniversal: '16',
                 permanentDescription: 'Third Molar'
+            } , {
+                position: 17,
+                arch: 'mandibular',
+                quadrant: 3,
+                quadrantDescription: 'Lower Left',
+                primaryFdi: '',
+                primaryUniversal: '',
+                primary_description: '',
+                permanentFdi: '38',
+                permanentUniversal: '17',
+                permanentDescription: 'Third Molar',
+            }, {
+                position: 18,
+                arch: 'mandibular',
+                quadrant: 3,
+                quadrantDescription: 'Lower Left',
+                primaryFdi: '',
+                primaryUniversal: '',
+                primary_description: '',
+                permanentFdi: '37',
+                permanentUniversal: '18',
+                permanentDescription: 'Second Molar',
+            }, {
+                position: 19,
+                arch: 'mandibular',
+                quadrant: 3,
+                quadrantDescription: 'Lower Left',
+                primaryFdi: '',
+                primaryUniversal: '',
+                primary_description: '',
+                permanentFdi: '36',
+                permanentUniversal: '19',
+                permanentDescription: 'First Molar',
+            }, {
+                position: 20,
+                arch: 'mandibular',
+                quadrant: 3,
+                quadrantDescription: 'Lower Left',
+                primaryFdi: '75',
+                primaryUniversal: 'K',
+                primary_description: 'Second Molar',
+                permanentFdi: '35',
+                permanentUniversal: '20',
+                permanentDescription: 'Second Premolar',
+            }, {
+                position: 21,
+                arch: 'mandibular',
+                quadrant: 3,
+                quadrantDescription: 'Lower Left',
+                primaryFdi: '74',
+                primaryUniversal: 'L',
+                primary_description: 'First Molar',
+                permanentFdi: '34',
+                permanentUniversal: '21',
+                permanentDescription: 'First Premolar',
+            }, {
+                position: 22,
+                arch: 'mandibular',
+                quadrant: 3,
+                quadrantDescription: 'Lower Left',
+                primaryFdi: '73',
+                primaryUniversal: 'M',
+                primary_description: 'Canine',
+                permanentFdi: '33',
+                permanentUniversal: '22',
+                permanentDescription: 'Canine',
+            }, {
+                position: 23,
+                arch: 'mandibular',
+                quadrant: 3,
+                quadrantDescription: 'Lower Left',
+                primaryFdi: '72',
+                primaryUniversal: 'N',
+                primary_description: 'Lateral Incisor',
+                permanentFdi: '32',
+                permanentUniversal: '23',
+                permanentDescription: 'Lateral Incisor',
+            }, {
+                position: 24,
+                arch: 'mandibular',
+                quadrant: 3,
+                quadrantDescription: 'Lower Left',
+                primaryFdi: '71',
+                primaryUniversal: 'O',
+                primary_description: 'Central Incisor',
+                permanentFdi: '31',
+                permanentUniversal: '24',
+                permanentDescription: 'Central Incisor',
+            }, {
+                position: 25,
+                arch: 'mandibular',
+                quadrant: 4,
+                quadrantDescription: 'Lower Right',
+                primaryFdi: '81',
+                primaryUniversal: 'P',
+                primary_description: 'Central Incisor',
+                permanentFdi: '41',
+                permanentUniversal: '25',
+                permanentDescription: 'Central Incisor',
+            }, {
+                position: 26,
+                arch: 'mandibular',
+                quadrant: 4,
+                quadrantDescription: 'Lower Right',
+                primaryFdi: '82',
+                primaryUniversal: 'Q',
+                primary_description: 'Lateral Incisor',
+                permanentFdi: '42',
+                permanentUniversal: '26',
+                permanentDescription: 'Lateral Incisor',
+            }, {
+                position: 27,
+                arch: 'mandibular',
+                quadrant: 4,
+                quadrantDescription: 'Lower Right',
+                primaryFdi: '83',
+                primaryUniversal: 'R',
+                primary_description: 'Canine',
+                permanentFdi: '43',
+                permanentUniversal: '27',
+                permanentDescription: 'Canine',
+            }, {
+                position: 28,
+                arch: 'mandibular',
+                quadrant: 4,
+                quadrantDescription: 'Lower Right',
+                primaryFdi: '84',
+                primaryUniversal: 'S',
+                primary_description: 'First Molar',
+                permanentFdi: '44',
+                permanentUniversal: '28',
+                permanentDescription: 'First Premolar',
+            }, {
+                position: 29,
+                arch: 'mandibular',
+                quadrant: 4,
+                quadrantDescription: 'Lower Right',
+                primaryFdi: '85',
+                primaryUniversal: 'T',
+                primary_description: 'Second Molar',
+                permanentFdi: '45',
+                permanentUniversal: '29',
+                permanentDescription: 'Second Premolar',
+            }, {
+                position: 30,
+                arch: 'mandibular',
+                quadrant: 4,
+                quadrantDescription: 'Lower Right',
+                primaryFdi: '',
+                primaryUniversal: '',
+                primary_description: '',
+                permanentFdi: '46',
+                permanentUniversal: '30',
+                permanentDescription: 'First Molar'
+            }, {
+                position: 31,
+                arch: 'mandibular',
+                quadrant: 4,
+                quadrantDescription: 'Lower Right',
+                primaryFdi: '',
+                primaryUniversal: '',
+                primary_description: '',
+                permanentFdi: '47',
+                permanentUniversal: '31',
+                permanentDescription: 'Second Molar',
+            }, {
+                position: 32,
+                arch: 'mandibular',
+                quadrant: 4,
+                quadrantDescription: 'Lower Right',
+                primaryFdi: '',
+                primaryUniversal: '',
+                primary_description: '',
+                permanentFdi: '48',
+                permanentUniversal: '32',
+                permanentDescription: 'Third Molar',
+
             }
         ];
 
