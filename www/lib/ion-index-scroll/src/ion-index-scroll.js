@@ -92,18 +92,14 @@ angular.module('ion-index-scroll', [])
                             scope.sidebarScrollIndex = attrs.useCompleteAlphabet == 'true' ? createSidebarScrollIndexByAlphabet() : createSidebarScrollIndex(preSortedItems);
 
                             scope.indexScrollGoToList = function (id) {
-                                //var deferred = $q.defer();
-                                //
-                                //$timeout(function() {
-                                //    deferred.resolve($location.hash(id));
-                                //    $anchorScroll(true);    // Note ionicScrollDelegate does not behave correctly, so we use anchorScroll instead
-                                //
-                                //}, 1);
-                                //
-                                //return deferred.promise;
+                                var deferred = $q.defer();
 
-                                var divTop = document.getElementById(id).offsetTop;
-                                $ionicScrollDelegate.scrollTo(0, divTop, true);
+                                $timeout(function() {
+                                    var divTop = document.getElementById(id).offsetTop;
+                                    $ionicScrollDelegate.scrollTo(0, divTop, true);
+                                }, 300);
+
+                                return deferred.promise;
                             };
 
                             // Create alphabet object for sidebar
