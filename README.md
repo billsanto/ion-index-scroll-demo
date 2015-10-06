@@ -1,4 +1,4 @@
-ion-index-scroll
+ion-index-scroll-demo
 ================
 
 > Configurable Ionic directive for an indexed list with a configurable scroll bar.
